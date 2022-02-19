@@ -17,6 +17,9 @@ class Student() {
   function _setemailaddress($emailaddress) {
     $this->emailaddress = $emailaddress; 
   }
+  function _getFullName(){
+    "$this->firstname, $this->lastname";
+  }
 }
 
 ?>
