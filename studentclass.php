@@ -18,7 +18,7 @@ class Student() {
     $this->emailaddress = $emailaddress; 
   }
   function _getFullName(){
-    "$this->firstname, $this->lastname";
+    return "$this->firstname, $this->lastname";
   }
 }
 
