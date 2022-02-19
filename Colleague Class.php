@@ -25,8 +25,11 @@ function _setsalary($salary) {
     $this->salary = $salary;
 }
 
-function _getFullName($firstname,$lastname) {
-    return $this->FullName;
+function _getFullName() {
+    return "$this->firstname, $this->lastname";
+}
+function _getEmployDetails() {
+    return "$this->position, $this->salary";
 }
  }
  ?>
