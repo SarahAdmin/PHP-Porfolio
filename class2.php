@@ -38,12 +38,12 @@ $raven->set_firstname('Raven');
 $raven->set_lastname('Adams');
 $raven->set_course('Computer Games Programming');
 
-echo $raven->get_idnumber;
+echo $raven->get_idnumber();
 echo "</br>";
-echo $raven->get_firstname;
+echo $raven->get_firstname();
 echo "</br>";
-echo $raven->get_lastname;
+echo $raven->get_lastname();
 echo "</br>";
-echo $raven->get_course;
+echo $raven->get_course();
 
 ?>
