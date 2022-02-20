@@ -17,8 +17,8 @@ class Course() {
   function _setduration($duration) {
     $this->duration = $duration; 
   } 
-  function _getlevel($level); {
-  return $level; 
+  function _getlevel(); {
+  return $this->level; 
   }
 }
 ?>
